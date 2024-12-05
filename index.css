@@ -1,0 +1,519 @@
+.bg-cont{
+    background-color:#ffffff ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+}
+.nav-cont{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    align-self: center;
+    width: 90vw;
+    padding: 2%;
+}
+.company{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.company-logo{
+    height: 50%;
+    width: 20%;
+    align-self: center;
+}
+.company-name{
+    font-family: sans-serif;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.features{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.each-feature{
+    font-family: sans-serif;
+    font-size: 20px;
+    align-self: center;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.butn-cont{
+    display: flex;
+    align-self: flex-start;
+    padding-top: 15px;
+}
+.book-button{
+    background-color:#2847e3;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    align-self: center;
+    padding: 10px;
+}
+.menu{
+    color: black ;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 25px;
+    align-self: flex-start;
+}
+.book-appoinment-cont{
+    background:  linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6)),url("components/image1.png");
+    
+    height: 50vh;
+    background-size: cover;
+    
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.intro-top-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.arrow{
+    color: #000000;
+    font-size: 40px;
+    align-self: center;
+}
+.intro{
+    width: 70%;
+    color: black;
+    font-family: system-ui;
+    font-size: 37px;
+    
+}
+.facades{
+    font-family: system-ui;
+    font-style: italic;
+    
+    font-weight: bold;
+}
+.underlined-part{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.intro-bot-cont{
+    display: flex;
+    flex-direction: row;
+}
+.intro-book-button{
+    background-color:#2847e3;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 25px;
+    align-self: center;
+    padding: 15px;
+}
+.arrow-right{
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.rights{
+    font-family: sans-serif;
+    align-self: center;
+    font-weight: 600;
+    font-size: 12px;
+    
+    
+}
+.sec-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 5%;
+}
+.we-are{
+    width: 60%;
+    border-left: 7px solid rgb(252, 62, 62);
+    padding-left: 20px;
+    font-size: 50px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more-expert-cont{
+    width: 30%;
+    align-self: center;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.info-par{
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.info-par-underlined{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.info-par-bold{
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.thr-cont{
+    background-image: url("components/Spacio TechTonics Consultancy V21.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    height: 70vh;
+}
+.arrow-cont{
+    align-self: center;
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.thr-cont-par{
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 15%;
+}
+.arrow-right-thr{
+    color: white;
+    font-size: 30px;
+}
+.arrow-left{
+    color: white;
+    font-size: 30px;
+}
+
+.thr-rights{
+    color: white;
+    align-self: center;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+.fourth-cont{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 5%;
+}
+.fourth-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
+.fourth-par{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 500;
+    
+    padding-left: 10px;
+}
+.map-cont{
+    width: 30%;
+}
+.map{
+    height: 90%;
+    width: 30vw;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+.li-item{
+    list-style: disc;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stats-cont{
+    box-shadow:  rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 20px;
+}
+.stat-num{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stat-par{
+    width: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.latest-work-cont{
+    display: flex;
+    flex-direction: column;
+}
+.latest-top-cont{
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 2%;
+}
+.latest-work-head{
+    border-left: solid 3px red;
+    padding-left: 10px;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.latest-work-par{
+    align-self: center;
+    font-size: 1.7vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.carousel-cont{
+    width: 60%;
+    align-self: center;
+}
+.insights-bot-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+.card-cont{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+.card{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 20px;
+    padding-bottom: 35%;
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+.card-icon{
+    font-size: 200%;
+    
+}
+.card-par{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    align-self: center;
+    width: 60%;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.card-date{
+    font-size: 1.5vw;
+    align-self: flex-end;
+    
+}
+.fifth-cont{
+    
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    background:  linear-gradient(rgba(75, 56, 56, 0.9), rgba(145, 18, 18, 0.6)),url("components/Spacio\ TechTonics\ Consultancy\ V21.png");
+    padding-bottom: 5%;
+}
+.fifth-nav-feature{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    align-self: center;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 15%;
+}
+.fifth-nav-company-logo{
+    height: 50%;
+    width: 50%;
+    align-self: center;
+}
+
+.fifth-company-name{
+    font-family: sans-serif;
+    font-size: 2vw;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.fifth-menu{
+    color: #ffffff ;
+    font-size: 20px;
+    margin-left: 20px;
+    align-self: center;
+}
+.innovate-cont{
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+.innovate-head{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.innovate-par{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.innovate-underlined{
+    text-decoration: underline;
+    
+}
+.keep-touch-cont{
+    
+    margin-top: 2%;
+}
+.keep-touch-head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.keep-touch-par{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.social-cont{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.social-par{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    align-self: center;
+    margin-top: 3%;
+}
+.social-icon{
+    
+    margin: 7px;
+    color: #ffffff;
+    font-size: 40px;
+}
+.keep-in-touch-cont{
+padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input-box{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 7px;
+    color: rgb(216, 216, 216);
+    outline: none;
+}
+.signup-butn{
+    border: 0px;
+    border-radius: 7px;
+    font-weight: 13px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-left: 10px;
+}
+.last-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(40, 38, 38);
+    padding: 2%;
+    
+}
+.company-cont{
+    display: flex;
+    flex-direction: column;
+}
+.company{
+    display: flex;
+    flex-direction: row;
+    
+}
+.last-cont-company-rights{
+    color: #ffffff;
+    font-size: 10px;
+    width: 90%;
+}
+.last-nav-company-logo{
+    height: 100%;
+    width: 100%;
+}
+.last-cont-company-name{
+    color: #ffffff;
+    padding-left: 5px;
+}
+.company-links-head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.company-links-par{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+.call-us-cont{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.call-us-head{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+.call-us-icon{
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
